@@ -19,6 +19,10 @@ public class Demo1 {
 	{
 		System.out.println("----testscript2_Test----");
 	}
-	
+	@Test(groups="smoke")
+	public void testscript5_Test()
+	{
+		System.out.println("----testscript5_Test----");
+	}
 	
 }
