@@ -13,7 +13,7 @@ public class Practice  {
 		System.out.println("----testscript3_Test----");
 	}
 	
-	@Test(groups="regression")
+	@Test(groups={"regression", "smoke"})
 	public void testscript4_Test()
 	{
 		System.out.println("----testscript4_Test----");

@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class Sample  {
 
-	@Test
+	@Test(groups="smoke")
 	public void testscript5_Test()
 	{
 		System.out.println("----testscript5_Test----");
