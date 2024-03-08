@@ -11,11 +11,15 @@ public class Practice  {
 	public void testscript3_Test()
 	{
 		System.out.println("----testscript3_Test----");
+		System.out.println("----testscript3_Test----");
+		System.out.println("s----testscript3_Test----");
 	}
 	
 	@Test(groups={"regression", "smoke"})
 	public void testscript4_Test()
 	{
 		System.out.println("----testscript4_Test----");
+		System.out.println("----testscript3_Test----");
+		System.out.println("----testscript3_Test----");
 	}
 }
