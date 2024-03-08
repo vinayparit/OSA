@@ -7,12 +7,10 @@ import org.testng.annotations.Test;
 
 public class Demo1 {
 
-	@Test (groups="regression")
+	@Test (groups={"smoke","regression"})
 	public void testscript1_Test()
-	
-	
-	
 	{
+		System.out.println("----testscript1_Test----");
 		System.out.println("----testscript1_Test----");
 	}
 	
